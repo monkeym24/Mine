@@ -42,9 +42,9 @@ then
       rm ~/ccminer/config.json
     elif [ "$INPUT" = "n" ]
     then
-      echo "saving as \"~/ccminer/config.json.#\""
+      echo "saving as \"~/ccminer/config.json.#\"y"
     else
-      echo 'Invalid input. Please answer with "y" or "n".\n'
+      echo 'Invalid input. Please answer with "y" or "n".\y'
     fi
   done
 fi
