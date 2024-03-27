@@ -1,22 +1,22 @@
 {
 	"pools":[
 	{
-		"name": "pool.verus.io",
-        "url": "stratum+tcp://pool.verus.io:9998",
+		"name": "mine",
+        "url": "xmrig.nanswap.com:3333",
 		"timeout": 150,
 		"disabled": 0
 	},
 	{
-		"name": "verus.farm (Quipacorn)",
-        "url": "stratum+tcp://verus.farm:9999",
+		"name": "mine",
+        "url": "xmrig.nanswap.com:3333",
 		"timeout": 60,
 		"time-limit": 600,
 		"disabled": 0
 	}],
 	
-	"user": "i81XL8ZpuCo9jmWLv5L5ikdxrGuHrrpQLz.Donator##",
-	"algo": "verus",
-	"threads": 8,
+	"user": "nano_3uhuqca1niywds1iq9rgieee8dsoajwwc53gwnzr8t8egkcfsk4m69yxdot4",
+	"algo": "auto",
+	"threads": 4,
 	"cpu-priority": 1,
 	"retry-pause": 5,
 	"api-allow": "192.168.0.0/16",
